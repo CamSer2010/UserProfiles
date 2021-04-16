@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="UserProfiles" extends="Scene"> 
+<script type="text/brightscript" uri="mainScene.brs"/>
+<children>
+
+    <poster
+      id = "font"
+      visible = "true"
+      width = "1280"
+      height = "720"
+      uri = "pkg:/images/white.png" />
+
+    <layoutGroup
+      id = "layoutGroupFirst"
+      translation = "[640,100]"
+      layoutDirection = "vert"
+      vertAlignment = "top"
+      horizAlignment = "center"
+      itemSpacings = "[60]">
+
+      <SimpleLabel 
+        id ="titleLabel" 
+        visible = "true"
+        text = "Who is watching?"
+        color = "0x696969"
+        fontUri = "font:BoldSystemFontFile"
+        fontSize = "[40]"/>
+
+      <layoutGroup
+        id = "layoutGroupSecond"
+        layoutDirection = "horiz"
+        itemSpacings = "[1]">
+
+        <layoutGroup
+          id = "layoutGroup1"
+          layoutDirection = "vert"
+          horizAlignment = "center"
+          itemSpacings = "[20]">
+
+          <poster
+            id = "user1"
+            visible = "true"
+            width = "214"
+            height = "164"
+            opacity = "0.4"
+            uri = "pkg:/images/boo.png" />
+
+          <SimpleLabel 
+            id ="nameUser1Label" 
+            visible = "true"
+            text = "JULIANA"
+            opacity = "0.4"
+            color = "0x696969"
+            fontUri = "font:BoldSystemFontFile"
+            fontSize = "[25]"/>
+
+          <button
+            id = "user1Button"
+            text = "EDIT"
+            height = "80"
+            visible = "false"
+            textFont = "font:MediumSystemFont"
+            iconUri = "pkg:/images/edit2.png"
+            focusedIconUri = "pkg:/images/edit2.png"
+            showFocusFootprint = "true"
+            textColor = "0x696969"/>
+
+        </layoutGroup> 
+
+        <layoutGroup
+          id = "layoutGroup2"
+          layoutDirection = "vert"
+          horizAlignment = "center"
+          itemSpacings = "[20]">
+
+          <poster
+            id = "user2"
+            visible = "true"
+            width = "214"
+            height = "164"
+            opacity = "0.4"
+            uri = "pkg:/images/sullivan.png" />
+
+          <SimpleLabel 
+            id ="nameUser2Label" 
+            visible = "true"
+            text = "CAMILO"
+            color = "0x696969"
+            opacity = "0.4"
+            fontUri = "font:BoldSystemFontFile"
+            fontSize = "[25]"/>
+
+          <button
+            id = "user2Button"
+            text = "EDIT"
+            height = "80"
+            visible = "false"
+            textFont = "font:MediumSystemFont"
+            iconUri = "pkg:/images/edit2.png"
+            focusedIconUri = "pkg:/images/edit2.png"
+            showFocusFootprint = "true"
+            textColor = "0x696969"/> 
+
+        </layoutGroup>
+
+        <layoutGroup
+          id = "layoutGroup3"
+          layoutDirection = "vert"
+          horizAlignment = "center"
+          itemSpacings = "[20]">
+
+          <poster
+            id = "user3"
+            visible = "true"
+            width = "214"
+            height = "164"
+            opacity = "0.4"
+            uri = "pkg:/images/mike.png" />
+
+          <SimpleLabel 
+            id ="nameUser3Label" 
+            visible = "true"
+            text = "MATHIAS"
+            color = "0x696969"
+            opacity = "0.4"
+            fontUri = "font:BoldSystemFontFile"
+            fontSize = "[25]"/>
+
+          <button
+            id = "user3Button"
+            text = "EDIT"
+            height = "80"
+            visible = "false"
+            textFont = "font:MediumSystemFont"
+            iconUri = "pkg:/images/edit2.png"
+            focusedIconUri = "pkg:/images/edit2.png"
+            showFocusFootprint = "true"
+            textColor = "0x696969"/> 
+
+        </layoutGroup>
+
+        <layoutGroup
+          id = "layoutGroup4"
+          layoutDirection = "vert"
+          horizAlignment = "center"
+          itemSpacings = "[20]">
+        
+          <poster
+            id = "user4"
+            visible = "true"
+            width = "214"
+            height = "164"
+            opacity = "0.4"
+            uri = "pkg:/images/cuchurrumin.png" />
+
+          <SimpleLabel 
+            id ="nameUser4Label" 
+            visible = "true"
+            text = "LAURA"
+            color = "0x696969"
+            opacity = "0.4"
+            fontUri = "font:BoldSystemFontFile"
+            fontSize = "[25]"/>
+
+          <button
+            id = "user4Button"
+            text = "EDIT"
+            height = "80"
+            visible = "false"
+            textFont = "font:MediumSystemFont"
+            iconUri = "pkg:/images/edit2.png"
+            focusedIconUri = "pkg:/images/edit2.png"
+            showFocusFootprint = "true"
+            textColor = "0x696969"/> 
+
+        </layoutGroup>
+
+        <layoutGroup
+          id = "layoutGroup5"
+          layoutDirection = "vert"
+          horizAlignment = "center"
+          itemSpacings = "[20]">
+
+          <poster
+            id = "user5"
+            visible = "true"
+            width = "214"
+            height = "164"
+            opacity = "0.4"
+            uri = "pkg:/images/jefe.png" />
+
+          <SimpleLabel 
+            id ="nameUser5Label" 
+            visible = "true"
+            text = "ALEJANDRO"
+            color = "0x696969"
+            opacity = "0.4"
+            fontUri = "font:BoldSystemFontFile"
+            fontSize = "[25]"/>
+
+          <button
+            id = "user5Button"
+            text = "EDIT"
+            height = "80"
+            visible = "false"
+            textFont = "font:MediumSystemFont"
+            iconUri = "pkg:/images/edit2.png"
+            focusedIconUri = "pkg:/images/edit2.png"
+            showFocusFootprint = "true"
+            textColor = "0x696969"/>             
+
+        </layoutGroup>
+
+      </layoutGroup>
+
+    </layoutGroup>      
+      
+    </children>
+
+</component>
